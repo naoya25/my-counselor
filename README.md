@@ -17,5 +17,5 @@ NotionのデータベースとOpenAIのAPIを活用して、日記のFBerをす�
 
 ## 実行
 ```zsh
-* * * * * /Users/otsukanaoya/Desktop/programming/python/my-counselor/.venv/bin/python /Users/otsukanaoya/Desktop/programming/python/my-counselor/main.py >> /Users/otsukanaoya/Desktop/programming/python/my-counselor/log.txt 2>&1
+* * * * * /Users/otsukanaoya/Desktop/programming/python/my-counselor/.venv/bin/python /Users/otsukanaoya/Desktop/programming/python/my-counselor/main.py >> /Users/otsukanaoya/Desktop/programming/python/my-counselor/cron.log 2>&1
 ```
