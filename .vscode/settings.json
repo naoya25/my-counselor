@@ -1,5 +1,5 @@
 {
-  "cSpell.words": [],
+  "cSpell.words": ["AIFB", "levelname", "venv"],
   "pylint.args": [
     "\"pylint.args\": [\"--disable=C0111\", \"--max-line-length=120\"]"
   ]
