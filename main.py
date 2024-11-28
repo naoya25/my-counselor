@@ -37,7 +37,7 @@ def main() -> None:
         feedback: str = generate_fb(openai_client, content_md)
         append_feedback_to_diary(notion_client, diary["id"], feedback)
         update_feedback_status(notion_client, diary["id"])
-        print(f'id: {diary["id"]}, feedback: {feedback[:30]}')
+        logger.info(f"id: {diary['id']}, feedback: {feedback[:30]}")
 
     logger.info("スクリプトを終了しました。")
 
